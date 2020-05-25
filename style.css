@@ -169,7 +169,7 @@ footer{
             
         }
         header{
-            background-color: rgb(252, 122, 112);
+            background-color: rgb(112, 114, 252);
             grid-area: header;
             font-size: 20px;
             font-weight: bold;
@@ -181,7 +181,7 @@ footer{
             
         }
         article{
-            background-color: rgb(252, 122, 112);
+            background-color: rgb(112, 114, 252);
             ;
             grid-area: article;
             grid-column: 100%;
@@ -221,7 +221,7 @@ footer{
             padding-left: 30px;
         }
         .titre{
-            color: rgb(252, 122, 112);
+            color: rgb(112, 114, 252);
             
         }
         div > p {
@@ -242,6 +242,12 @@ footer{
         li:before {
             
             content: "→ "; 
+        }
+        nav{
+            display: none;
+        }
+        aside{
+            display: none;
         }
     
       
